@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: CC - NON COMMERCIAL
-pragma solidity ^0.8.6;
+
+pragma solidity >=0.4.0 <0.6.0;
 
 contract ichoroniumProfiles {
     uint256 gamerCount = 0; // gamerId
@@ -75,4 +76,9 @@ contract ichoroniumProfiles {
                gamerFlags[0] = gamerFlag(0,true,true,true,true,true,true,0,0,0,0);
                gamerFlags[1] = gamerFlag(1,true,true,true,true,true,true,0,0,0,0);
              }
+                   constructor() public
+              {
+                  todaysDate = block.timestamp;
+                  owner = msg.sender;           
+              }
 }

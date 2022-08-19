@@ -1,11 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.6+commit.11564f7e"
+		"version": "0.5.17+commit.d19bba13"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
 				"inputs": [
 					{
 						"internalType": "string",
@@ -30,10 +37,12 @@
 				],
 				"name": "addGamer",
 				"outputs": [],
+				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
+				"constant": true,
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -43,10 +52,12 @@
 				],
 				"name": "checkBenefactorExist",
 				"outputs": [],
+				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
+				"constant": true,
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -112,10 +123,12 @@
 						"type": "uint256"
 					}
 				],
+				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
+				"constant": true,
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -161,30 +174,24 @@
 						"type": "uint256"
 					}
 				],
+				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"root/contracts/main/ichoronium-galactic-contracts/users/ichorProfiles.sol": "ichoroniumProfiles"
+			"ichoronium-galactic-contracts/users/ichorProfiles.sol": "ichoroniumProfiles"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "istanbul",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -192,12 +199,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"root/contracts/main/ichoronium-galactic-contracts/users/ichorProfiles.sol": {
-			"keccak256": "0x78c397672211e81f320aaa7fe23a3f7ce805d4aeb6492f8ac1fbfbc812363ccf",
-			"license": "CC - NON COMMERCIAL",
+		"ichoronium-galactic-contracts/users/ichorProfiles.sol": {
+			"keccak256": "0xd53730e868505420b3fc126665587a934c502115514f04ffab83342da37a8ef8",
 			"urls": [
-				"bzz-raw://612825598684917c7c9854c374784bb8ce7b67e1a5d1b350e5f9f7327e30e9cf",
-				"dweb:/ipfs/QmP3eMBJQNbsAbKWz4mAt1SkvowieiUCC6BDPbMtNCvJkJ"
+				"bzz-raw://abe64a127081fcf95c40036c28297f00c9d49fee2153d18795e522bfecba4116",
+				"dweb:/ipfs/QmSr1JuxoYX395XkGdczzaiCMkYMuMPVWrgF7dcLqRirdU"
 			]
 		}
 	},
