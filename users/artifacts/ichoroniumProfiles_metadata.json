@@ -1,0 +1,205 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_realFirstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_realLastName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_officialUserName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_benefactor",
+						"type": "uint256"
+					}
+				],
+				"name": "addGamer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_benefactor",
+						"type": "uint256"
+					}
+				],
+				"name": "checkBenefactorExist",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "gamerFlags",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_smsVerified",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_socialverfied",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_kycVerified",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_softBan",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_hardBan",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isJin",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_hardBanAddress",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_socialverificationAddress",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_kycVericationAddress",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_softBanAddress",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "gamers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_registrationDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_realFirstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_realLastName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_officialUsername",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ichoroniumLevel",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_benefactor",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"root/contracts/main/ichoronium-galactic-contracts/users/ichorProfiles.sol": "ichoroniumProfiles"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"root/contracts/main/ichoronium-galactic-contracts/users/ichorProfiles.sol": {
+			"keccak256": "0x78c397672211e81f320aaa7fe23a3f7ce805d4aeb6492f8ac1fbfbc812363ccf",
+			"license": "CC - NON COMMERCIAL",
+			"urls": [
+				"bzz-raw://612825598684917c7c9854c374784bb8ce7b67e1a5d1b350e5f9f7327e30e9cf",
+				"dweb:/ipfs/QmP3eMBJQNbsAbKWz4mAt1SkvowieiUCC6BDPbMtNCvJkJ"
+			]
+		}
+	},
+	"version": 1
+}
