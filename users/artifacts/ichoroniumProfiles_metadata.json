@@ -177,6 +177,42 @@
 				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "hardBanStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_user",
+						"type": "uint256"
+					}
+				],
+				"name": "hardbanToggle",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -200,10 +236,10 @@
 	},
 	"sources": {
 		"ichoronium-galactic-contracts/users/ichorProfiles.sol": {
-			"keccak256": "0xd53730e868505420b3fc126665587a934c502115514f04ffab83342da37a8ef8",
+			"keccak256": "0x3bff13c3df77e405df829c922e06c84de281d55055dca35847db9030b48cd3a9",
 			"urls": [
-				"bzz-raw://abe64a127081fcf95c40036c28297f00c9d49fee2153d18795e522bfecba4116",
-				"dweb:/ipfs/QmSr1JuxoYX395XkGdczzaiCMkYMuMPVWrgF7dcLqRirdU"
+				"bzz-raw://39489735de0b77e27ba9f6562e66a6e2b3b5bb4d6b8b9a458eecc3032e0bd6b1",
+				"dweb:/ipfs/QmVWgmJ9DTyqtfHMUMVLcaA1NNArDsmkAyebebxVaSvaa9"
 			]
 		}
 	},

@@ -11,7 +11,7 @@ contract ichoroniumProfiles {
     uint256 _id ;
 
     struct Gamer {
-        uint _id;
+        uint256 _id;
         uint256 _registrationDate;
         string _realFirstName;
         string _realLastName;
@@ -76,6 +76,22 @@ contract ichoroniumProfiles {
                gamerFlags[0] = gamerFlag(0,true,true,true,true,true,true,0,0,0,0);
                gamerFlags[1] = gamerFlag(1,true,true,true,true,true,true,0,0,0,0);
              }
+     function hardbanToggle(uint256 _user) 
+              public 
+              onlyOwner {
+                 if (gamerFlags[_user]._hardBan == false){
+                     gamerFlags[_user]._hardBan = true;
+                 }                       
+                 else if (gamerFlags[_user]._hardBan == true){
+                     gamerFlags[_user]._hardBan = false;
+                 }
+              }
+
+      function hardBanStatus(uint256 _id) public view returns (bool) {
+        gamerFlag storage flags = gamerFlags[_id];
+        return flags._hardBan;
+    }
+
                    constructor() public
               {
                   todaysDate = block.timestamp;

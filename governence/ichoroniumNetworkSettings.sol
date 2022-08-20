@@ -94,6 +94,59 @@ function switchichoroniumCloudSettingsCurrent(address newSetting
                     ichoroniumSettings.ichoroniumCloudSettingsCurrent = newSetting;
                        
               }
+function switchisNetworkActive(
+                      ) 
+              public 
+              onlyOwner {
+                 if (ichoroniumSettings.isNetworkActive == false){
+                     ichoroniumSettings.isNetworkActive = true;
+                     ichoroniumSettings.isNetworkIsDeactive = false;
+                 }                       
+                 else if (ichoroniumSettings.isNetworkActive == true){
+                     ichoroniumSettings.isNetworkActive = false;
+                 }
+              }
+              
+function killswitchActivate(
+                      ) 
+              public 
+              onlyOwner {
+                 if (ichoroniumSettings.killswitch == false){
+                     ichoroniumSettings.killswitch = true;
+                     ichoroniumSettings.isNetworkActive = false;
+                     ichoroniumSettings.isNetworkIsCoolingDown = true;
+                     ichoroniumSettings.isNetworkIsDeactive = true;
+
+                 }                       
+                 else if (ichoroniumSettings.killswitch == true){
+                     ichoroniumSettings.isNetworkActive = false;
+                     ichoroniumSettings.isNetworkIsCoolingDown = false;
+                     ichoroniumSettings.isNetworkIsDeactive = false;
+                     ichoroniumSettings.killswitch = false;
+                 }
+              }
+function switchisNetworkIsCoolingDown(
+                      ) 
+              public 
+              onlyOwner {
+                 if (ichoroniumSettings.isNetworkIsCoolingDown == false){
+                     ichoroniumSettings.isNetworkIsCoolingDown = true;
+                 }                       
+                 else if (ichoroniumSettings.isNetworkIsCoolingDown == true){
+                     ichoroniumSettings.isNetworkIsCoolingDown = false;
+                 }
+              }
+function switchisNetworkIsDeactive(
+                      ) 
+              public 
+              onlyOwner {
+                 if (ichoroniumSettings.isNetworkIsDeactive == false){
+                     ichoroniumSettings.isNetworkIsDeactive = true;
+                 }                       
+                 else if (ichoroniumSettings.isNetworkIsDeactive == true){
+                     ichoroniumSettings.isNetworkIsDeactive = false;
+                 }
+              }
 
 constructor() public
               {

@@ -253,6 +253,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "killswitchActivate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -329,6 +336,27 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "switchisNetworkActive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "switchisNetworkIsCoolingDown",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "switchisNetworkIsDeactive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -359,11 +387,11 @@
 	},
 	"sources": {
 		"ichoronium-galactic-contracts/governence/ichoroniumNetworkSettings.sol": {
-			"keccak256": "0xe41228b86eba6211aa728c4cdfb8c03e799c49531a086e78d9b5e9f466aef467",
+			"keccak256": "0xf2ddf16fd20932ebc3e41869aab4ba6da989552f6518c8c3a76891ec27ced766",
 			"license": "CC - NON COMMERCIAL",
 			"urls": [
-				"bzz-raw://e3c8e4e6d61763f282635c0604084c8c0906082f63e3dae60acd21c38558fe9f",
-				"dweb:/ipfs/QmaePZjztitGtFNvtd7Qt7EeB3fS423rkDuUoHaoxXHEbN"
+				"bzz-raw://51acf3da8f978cb39098146cbfed8887ff8ab278958df77c1e19e97159b8e962",
+				"dweb:/ipfs/QmQsEtoL7NS5U5bGzqyEXvxbZN27DuHkMCbBWorTqteb62"
 			]
 		}
 	},
