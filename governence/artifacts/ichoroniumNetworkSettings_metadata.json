@@ -1,0 +1,371 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "gameProfitsGalacticSettingsCurrent",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ichoroniumFinanceSettingsCurrent",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ichoroniumGalacticMeteaverseCurrent",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ichoroniumNetworkPermissionsCurrent",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ichoroniumNetworkProfilesCurrent",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ichoroniumReturnSettings",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "bool",
+								"name": "isNetworkActive",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "isNetworkIsCoolingDown",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "isNetworkIsDeactive",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "killswitch",
+								"type": "bool"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumNetworkProfilesPrevious",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumNetworkProfilesCurrent",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumNetworkProfilesUpgradeProposal",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumNetworkPermissionsPrevious",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumNetworkPermissionsCurrent",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumNetworkPermissionsUpgradeProposal",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "gameProfitsGalacticSettingsPrevious",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "gameProfitsGalacticSettingsCurrent",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "gameProfitsGalacticSettingsUpgradeProposal",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumGalacticMeteaversePrevious",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumGalacticMeteaverseCurrent",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumGalacticMeteaverseUpgradeProposal",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumFinanceSettingsPrevious",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumFinanceSettingsCurrent",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumFinanceSettingsUpgradeProposal",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumCloudSettingsPrevious",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumCloudSettingsCurrent",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "ichoroniumCloudSettingsUpgradeProposal",
+								"type": "address"
+							}
+						],
+						"internalType": "struct ichoroniumNetworkSettings.networkSettings",
+						"name": "networkSetting",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isNetworkActive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isNetworkIsCoolingDown",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isNetworkIsDeactive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "killswitch",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newSetting",
+						"type": "address"
+					}
+				],
+				"name": "switchgameProfitsGalacticSettingsCurrent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newSetting",
+						"type": "address"
+					}
+				],
+				"name": "switchichoroniumCloudSettingsCurrent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newSetting",
+						"type": "address"
+					}
+				],
+				"name": "switchichoroniumFinanceSettingsCurrent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newSetting",
+						"type": "address"
+					}
+				],
+				"name": "switchichoroniumGalacticMeteaverseCurrent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newSetting",
+						"type": "address"
+					}
+				],
+				"name": "switchichoroniumNetworkPermissionsCurrent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newSetting",
+						"type": "address"
+					}
+				],
+				"name": "switchichoroniumNetworkProfilesCurrent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ichoronium-galactic-contracts/governence/ichoroniumNetworkSettings.sol": "ichoroniumNetworkSettings"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ichoronium-galactic-contracts/governence/ichoroniumNetworkSettings.sol": {
+			"keccak256": "0xe41228b86eba6211aa728c4cdfb8c03e799c49531a086e78d9b5e9f466aef467",
+			"license": "CC - NON COMMERCIAL",
+			"urls": [
+				"bzz-raw://e3c8e4e6d61763f282635c0604084c8c0906082f63e3dae60acd21c38558fe9f",
+				"dweb:/ipfs/QmaePZjztitGtFNvtd7Qt7EeB3fS423rkDuUoHaoxXHEbN"
+			]
+		}
+	},
+	"version": 1
+}
